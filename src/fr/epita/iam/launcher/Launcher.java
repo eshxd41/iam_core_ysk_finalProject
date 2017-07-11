@@ -203,6 +203,9 @@ public class Launcher {
 						System.out.println("The Update operation completed successfully");
 						break;
 					
+						/**
+						 * user friendly message displaying of the user that is deleted
+						 */
 					case "2":
 						dao.delete(displayNametoUpdate);
 						System.out.println("Successfully deleted the record for:" + displayNametoUpdate);
